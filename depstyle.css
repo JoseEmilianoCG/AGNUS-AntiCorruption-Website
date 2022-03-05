@@ -1,3 +1,5 @@
+
+/* Estilo de la carátula de la página*/
 .titulo {
   color: white;
   font-family: 'Montserrat', sans-serif;
@@ -14,6 +16,8 @@
   /*border: 2px white;*/ 
 
 }
+
+/*Estilo del cuerpo de la página, despliegue de estados*/
 body {
   heigh:665px;
   background-image: url("3.png");
