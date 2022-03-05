@@ -1,5 +1,7 @@
 * {margin:0; padding:0}
 
+/*Estilo de la página de información general*/
+
 .titulo {
   font-family: 'Montserrat', sans-serif;
   color: #5CE1E6;
@@ -36,6 +38,8 @@ body {
   text-align: center;
 }
 
+
+/*Estilo del grid*/
 .container-grid{
   display: grid;
   grid-template-columns: 450px 450px 450px;
