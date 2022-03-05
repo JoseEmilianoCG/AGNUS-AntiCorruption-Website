@@ -1,0 +1,336 @@
+* {margin:0; padding:0}
+
+@media only screen and (max-width: 1920px){
+#background-video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.responsivelogo{
+  width: 450px;
+  height: 450px;
+}
+
+.top-header {
+  display: flex;
+  justify-content: center;
+}
+
+.top-nav {
+  display: flex;
+  justify-content: center;
+}
+
+/* Logo */
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+/* Menu */
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  top: 100px;
+}
+
+.menu li {
+  padding: 0 15px;
+  
+}
+
+.tabs {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  border-radius: 4px;
+  background-color: #32F7F7;
+  border: none;
+  color: #000000;
+  text-align: center;
+  font-size: 32px;
+  padding: 16px;
+  width: 500px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 16px;
+  box-shadow: 0 10px1 20px -8px rgba(0, 0, 0,.7);
+  display: block-axis;
+  position: relative;
+  transition: 0.5s;
+}
+
+.tabs:after{
+  content: '»';
+  position: absolute;
+  opacity: 0;  
+  top: 14px;
+  right: 10px;
+  transition: 0.5s;
+}
+
+.tabs:hover{
+  background-color: #88058a;
+  color: #ffffff;
+  padding-right: 24px;
+  padding-left: 8px;
+}
+
+.tabs:hover:after{
+  opacity: 1;
+  right: 10px;
+}
+
+.tabs:active {
+  background-color: #88058a;
+  color: #ffffff;
+  transform: translateY(4px);
+  justify-content: center;
+}
+}
+/* Movil */
+@media only screen and (max-width: 1920px){
+  * {margin:0; padding:0}
+
+  #background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+  .responsivelogo{
+    width: 400px;
+    height: 400px;
+  }  
+}
+
+
+/* Large screen, laptops 
+@media only screen and (max-width: 1920px){
+ * {margin:0; padding:0}
+  #background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+
+  .responsivelogo{
+    height: 400px;
+    width: 400px;
+  }
+    
+  .top-header {
+    display: flex;
+    justify-content: center;
+  }
+
+  .top-nav {
+    display: flex;
+    justify-content: center;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+
+    
+  .menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .menu li {
+    padding: 0 15px;
+  
+  }
+
+  .tabs {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    border-radius: 4px;
+    background-color: #32F7F7;
+    border: none;
+    color: #000000;
+    text-align: center;
+    font-size: 80px;
+    padding: 16px;
+    width: 500px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 16px;
+    box-shadow: 0 10px1 20px -8px rgba(0, 0, 0,.7);
+    display: block-axis;
+    position: relative;
+    transition: 0.5s;
+  }
+
+  .tabs:after{
+    content: '»';
+    position: absolute;
+    opacity: 0;  
+    top: 14px;
+    right: 10px;
+    transition: 0.5s;
+  }
+
+  .tabs:hover{
+    background-color: #88058a;
+    color: #ffffff;
+    padding-right: 24px;
+    padding-left: 8px;
+  }
+
+  .tabs:hover:after{
+    opacity: 1;
+    right: 10px;
+  }
+
+  .tabs:active {
+    background-color: #88058a;
+    color: #ffffff;
+    transform: translateY(4px);
+    justify-content: center;
+  }
+
+}
+}*/
+
+
+/* Mobile MIKE*/ 
+@media only screen and (max-width: 1200px){
+    * {margin:0; padding:0}
+  #background-video {
+    width: 160vw;
+    height: 150vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }  
+  .top-header {
+    display: flex;
+    justify-content: center;
+  }
+
+  .top-nav {
+    display: flex;
+    justify-content: center;
+  }
+
+/* Logo */
+
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .responsivelogo{
+    max-width: 100%;
+    height: auto;
+  }
+
+/* Menu */
+
+  .menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .menu li {
+    padding: 0 15px;
+  
+  }
+
+  .tabs {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    border-radius: 4px;
+    background-color: #32F7F7;
+    border: none;
+    color: #000000;
+    text-align: center;
+    font-size: 32px;
+    padding: 16px;
+    width: 500px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 16px;
+    box-shadow: 0 10px1 20px -8px rgba(0, 0, 0,.7);
+    display: block-axis;
+    position: relative;
+    transition: 0.5s;
+  }
+
+  .tabs:after{
+    content: '»';
+    position: absolute;
+    opacity: 0;  
+    top: 14px;
+    right: 10px;
+    transition: 0.5s;
+  }
+
+  .tabs:hover{
+    background-color: #88058a;
+    color: #ffffff;
+    padding-right: 24px;
+    padding-left: 8px;
+  }
+
+  .tabs:hover:after{
+    opacity: 1;
+    right: 10px;
+  }
+
+  .tabs:active {
+    background-color: #88058a;
+    color: #ffffff;
+    transform: translateY(4px);
+    justify-content: center;
+  }
+}
+
+
+
+
+/* GENERAL */
+
+.web {
+  overflow: hidden;
+}
+
+

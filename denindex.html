@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Denuncias - AGNUS</title>
+    <link rel="stylesheet" href="denstyle.css">
+    <script type="text/javascript" src="denscript.js"></script>
+    <link rel="icon" type="image/png" href="LogoFavicon.png">
+  </head>
+  <body>
+    <form action="db.php" name="" method="post" class="formulario">
+      <h1 class="formulario__titulo">Formulario de Denuncia</h1>
+      
+      <input type="text" class="formulario__input" name="lugar" id="lugar"> 
+      <label for="" class="formulario__label">Lugar donde ocurrieron los hechos</label>
+      <br>
+      <br>
+      <input type="text" class="formulario__input" name="fecha" id="fecha">  
+      <label for="" class="formulario__label">Fecha cuando ocurrieron los hechos</label>
+      <br>
+      <br>
+      <input type="text" class="formulario__input" name="nombre" id="nombre">
+      <label for="" class="formulario__label">Nombre del denunciante (si desea que la denuncia sea anónima, omita esta casilla)</label>
+      <br>
+      <br>
+      <input type="text" class="formulario__input" name="sexo" id="sexo" >
+      <label for="" class="formulario__label">Sexo del denunciante (Opcional)</label>
+      <br>
+      <br>
+      <input type="text" class="formulario__input" name="edad" id="edad" >
+      <label for="" class="formulario__label">Edad del denunciante (Opcional)</label>
+      <br>
+      <br>
+      <input type="text" class="formulario__input" name="ocupacion" id="ocupacion" >
+      <label for="" class="formulario__label">Ocupación del denunciante (Opcional)</label>
+      <br>
+      <br>
+      <input type="text" class="formulario__input" name="escuela" id="escuela" >
+      <label for="" class="formulario__label">Escolaridad del denunciante (Opcional)</label>
+      <br>
+      <br>
+      <input type="text" class="formulario__input" name="nomb_den" id="nomb_den" >
+      <label for="" class="formulario__label">Nombre del denunciado/a, o denunciados/as (de conocerlo)</label>
+      <br>
+      <br>
+      <input type="text" class="formulario__input" name="ocup_den" id="ocup_den" >
+      <label for="" class="formulario__label">Ocupación del denunciado/a, o denunciados/as</label>
+      <br>
+      <br>
+      <input type="text" class="formulario__input" name="descripcion" id="descripcion" >
+      <label for="" class="formulario__label">Descripción de los hechos denunciados (Qué, quién, cómo, cuándo, dónde)</label>
+      <br>
+      <br>
+      <input type="text" class="formulario__input" name="correo" id="correo" >
+      <label for="" class="formulario__label">Correo electrónico de contacto (Opcional)</label>
+      <br>
+      <br>
+      <input type="file" name="file" id="file" class="inputfile" />
+      <label for="file" class="archivo">Subir evidencia que da sustento a la denuncia en forma de fotografías, audios, video, etc. (si se cuenta con ellos)</label>
+      <br>
+      <br>
+      Por lo que de la manera más atenta solicito: <br></br>
+      ·   	Presentar de forma oficial la denuncia en contra del o de los servidores públicos, y en su caso, de las personas, antes señaladas por su      
+      probable participación en la comisión de hechos constitutivos de delito. <br></br>
+      ·   	Iniciar la investigación correspondiente, en su caso, se emita el Informe de Presunta Responsabilidad, y se califique la falta administrativa 
+      como corresponda.<br></br>
+      ·   	Sancionar al o a los servidores públicos responsables, y en su caso, a los particulares responsables de la comisión de faltas administrativas. 
+      <br>
+      <br>
+      <br>
+      <label><input type="checkbox" id="cbox1" value="first_checkbox">  Acepto haber leido y acordado con el <a href = 
+      "https://avisodeprivacidad.alanguzman6.repl.co" target = "_blank"> aviso de privacidad </a> de AGNUS</label>
+      <br>
+      <br>
+      <input type="checkbox" id="cbox2" value="second_checkbox"> <label for="cbox2">Acepto haber leido la <a href =
+      "https://www.diputados.gob.mx/LeyesBiblio/pdf/LFPDPPP.pdf" target="_blank">Ley de Privacidad de Datos Personales</a></label>
+      <br>
+      <br>
+      <input type="submit" class="formulario__submit" name="submit" value="Submit">
+    </form>    
+  </body>
+</html>
+
