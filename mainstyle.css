@@ -103,7 +103,7 @@
   justify-content: center;
 }
 }
-/* Movil */
+
 @media only screen and (max-width: 1920px){
   * {margin:0; padding:0}
 
