@@ -14,9 +14,10 @@ $descripcion = $_POST["descripcion"];
 $correo = $_POST["correo"];
 //EVIDENCIA $nombre = $_POST["nombre"];
 
-//Coneccion a DB
+//Conexion a DB
 $conn = new mysqli('localhost', 'root', '', 'testagnus');
 
+// INSERT en la BD de MySQL
 if($conn->connect_error){
   die('Connection Failed : '.$conn->connect_error);
 }else{
